@@ -21,6 +21,8 @@ void main(){
   bool areYouHappy = true;
   print('Apakah kamu sudah menikah? $alreadyMarried, Apakah kamu bahagia saat ini? $areYouHappy\n');
 
+  /// tipe data map digunakan untuk menyimpan pasangan key dan value
+  /// value dapat dipanggil dengan key, misal memanggil kelas maka akan muncul valuenya yaitu IF03
   Map<String, dynamic> siswa = {'nama': 'Nova', "kelas": 'IF03'};
   print(siswa);
   print(siswa['kelas']);
