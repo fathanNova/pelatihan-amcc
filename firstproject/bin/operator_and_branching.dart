@@ -10,7 +10,7 @@ void main() {
   /// contoh increment
   int number = 1;
   number += 1;
-  print(number);//number = 2
+  print(number); //number = 2
 
   /// operator perbandingan
   bool condition1 = true;
@@ -28,9 +28,9 @@ void main() {
   print(!condition1);
 
   /// percabangan
-  if(number > 0){
+  if (number > 0) {
     print('Number is positive');
-  }else{
+  } else {
     print('Number is negative');
   }
 
@@ -45,7 +45,7 @@ void main() {
   print(result);
 
   /// switch case
-  switch(number){
+  switch (number) {
     case 1:
       print('January');
       break;
@@ -56,27 +56,25 @@ void main() {
       print('March');
       break;
     default:
-    print('Bukan bulan');
+      print('Bukan bulan');
   }
 
   /// perulangan for
-  for(int i = 0; i < 10; i++){
+  for (int i = 0; i < 10; i++) {
     print('Angka ke-$i');
   }
 
   /// perulangan while
   var i = 0;
-  while(i < 10){
+  while (i < 10) {
     print('Angka ke-$i');
     i++;
   }
 
   /// perulangan do while
   // cocok digunakan untuk perulangan yang jumlah iterasinya tidak diketahui
-  do{
+  do {
     print('Angka ke-$i');
     i++;
-  }while(i < 10);
-
-
+  } while (i < 10);
 }
